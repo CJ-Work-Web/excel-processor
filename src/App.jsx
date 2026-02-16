@@ -65,6 +65,7 @@ function App() {
               label="請上傳管理費欠繳名單 (.xlsx)"
               file={arrearsFile}
               onFileSelect={setArrearsFile}
+              variant="blue"
             />
             <div className="mt-4 p-4 bg-blue-50 rounded-lg text-sm text-blue-700 space-y-1">
               <p className="font-semibold mb-1">💡 檔案需求：</p>
@@ -91,6 +92,7 @@ function App() {
               label="請上傳住戶名單 (.xlsx)"
               file={residentsFile}
               onFileSelect={setResidentsFile}
+              variant="green"
             />
             <div className="mt-4 p-4 bg-emerald-50 rounded-lg text-sm text-emerald-700 space-y-1">
               <p className="font-semibold mb-1">💡 檔案需求：</p>
