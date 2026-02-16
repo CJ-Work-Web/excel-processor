@@ -150,9 +150,11 @@ function App() {
           </div>
         </div>
 
+        <footer className="mt-8 text-center text-gray-400 text-sm">
+          <p>Last Updated: {new Date().toLocaleString()}</p>
+        </footer>
       </div>
-    </div>
-  );
+      );
 }
 
-export default App;
+      export default App;
