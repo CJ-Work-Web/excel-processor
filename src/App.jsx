@@ -47,8 +47,7 @@ function App() {
           <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 text-white mb-6 shadow-lg shadow-blue-200">
             <FileSpreadsheet size={40} />
           </div>
-          <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight">Excel 資料整合工具</h1>
-          <p className="text-gray-500 mt-3 text-lg">自動化合併欠繳名單與住戶資料，輕鬆產生報表</p>
+          <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight">美河市房屋管理費欠繳名單整理</h1>
         </div>
 
         {/* Upload Card 1: Arrears List */}
